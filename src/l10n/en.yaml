@@ -1,0 +1,4 @@
+microbit.menubar.device: Device
+microbit.menubar.device.connect: Connect
+microbit.menubar.device.disconnect: Disconnect
+microbit.menubar.device.sync: Sync blocks

@@ -1,0 +1,4 @@
+microbit.menubar.device: 设备
+microbit.menubar.device.connect: 连接
+microbit.menubar.device.disconnect: 断开连接
+microbit.menubar.device.sync: 同步脚本
