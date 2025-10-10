@@ -60,7 +60,7 @@ export function DeviceMenu({ itemClassName }) {
 
     const projectFiles = [].concat(files.value, assets.value);
 
-    downloadingAlert('0.0');
+    downloadingAlert(0);
 
     try {
       // 开始下载
