@@ -53,11 +53,6 @@ export function DeviceMenu({ itemClassName }) {
     }
     if (!currentDevice) return;
 
-    const checker = MPYUtils.check(currentDevice).catch(() => {
-      errorAlert();
-      removeDownloading();
-    });
-
     const projectFiles = [].concat(files.value, assets.value);
 
     downloadingAlert(0);
@@ -71,7 +66,6 @@ export function DeviceMenu({ itemClassName }) {
     }
 
     removeDownloading();
-    checker.cancel();
   }, []);
 
   return (
