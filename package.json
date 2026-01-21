@@ -1,5 +1,5 @@
 {
-  "name": "@blockcode/gui-microbit",
+  "name": "@microbit/gui-microbit",
   "private": "true",
   "version": "0.1.0",
   "type": "module",
